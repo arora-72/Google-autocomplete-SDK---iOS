@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C6E5A182191979E00E276B2 /* autocompleteSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6E5A172191979E00E276B2 /* autocompleteSearchViewController.swift */; };
+		1CBAA2B021917C91006A2587 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBAA2AF21917C91006A2587 /* AppDelegate.swift */; };
+		1CBAA2B221917C91006A2587 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBAA2B121917C91006A2587 /* ViewController.swift */; };
+		1CBAA2B521917C92006A2587 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CBAA2B321917C92006A2587 /* Main.storyboard */; };
+		1CBAA2B721917C94006A2587 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CBAA2B621917C94006A2587 /* Assets.xcassets */; };
+		1CBAA2BA21917C94006A2587 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CBAA2B821917C94006A2587 /* LaunchScreen.storyboard */; };
+		1CBAA2C521917C94006A2587 /* placeAutocompleteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBAA2C421917C94006A2587 /* placeAutocompleteTests.swift */; };
+		1CBAA2D021917C94006A2587 /* placeAutocompleteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBAA2CF21917C94006A2587 /* placeAutocompleteUITests.swift */; };
+		1CBAA2DE219180FF006A2587 /* GoogleMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBAA2DD219180FF006A2587 /* GoogleMapViewController.swift */; };
+		69CF42E30BB4CC327799B18E /* Pods_placeAutocompleteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15FB4C0425374FE09D884E7A /* Pods_placeAutocompleteTests.framework */; };
+		8AAC732C0E1103132CF16BF8 /* Pods_placeAutocomplete.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31C2462EAAFEA1514D117B5A /* Pods_placeAutocomplete.framework */; };
+		E57102065D11577EA48C90F9 /* Pods_placeAutocompleteUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9E46136FE98EAE2ABF337B /* Pods_placeAutocompleteUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CBAA2C121917C94006A2587 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CBAA2A421917C91006A2587 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CBAA2AB21917C91006A2587;
+			remoteInfo = placeAutocomplete;
+		};
+		1CBAA2CC21917C94006A2587 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CBAA2A421917C91006A2587 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CBAA2AB21917C91006A2587;
+			remoteInfo = placeAutocomplete;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F3CF0CDB699FE7155884844 /* Pods-placeAutocompleteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-placeAutocompleteUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-placeAutocompleteUITests/Pods-placeAutocompleteUITests.release.xcconfig"; sourceTree = "<group>"; };
+		15FB4C0425374FE09D884E7A /* Pods_placeAutocompleteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_placeAutocompleteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C6E5A172191979E00E276B2 /* autocompleteSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = autocompleteSearchViewController.swift; sourceTree = "<group>"; };
+		1CBAA2AC21917C91006A2587 /* placeAutocomplete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = placeAutocomplete.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CBAA2AF21917C91006A2587 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1CBAA2B121917C91006A2587 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1CBAA2B421917C92006A2587 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1CBAA2B621917C94006A2587 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CBAA2B921917C94006A2587 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1CBAA2BB21917C94006A2587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CBAA2C021917C94006A2587 /* placeAutocompleteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = placeAutocompleteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CBAA2C421917C94006A2587 /* placeAutocompleteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = placeAutocompleteTests.swift; sourceTree = "<group>"; };
+		1CBAA2C621917C94006A2587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CBAA2CB21917C94006A2587 /* placeAutocompleteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = placeAutocompleteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CBAA2CF21917C94006A2587 /* placeAutocompleteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = placeAutocompleteUITests.swift; sourceTree = "<group>"; };
+		1CBAA2D121917C95006A2587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CBAA2DD219180FF006A2587 /* GoogleMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapViewController.swift; sourceTree = "<group>"; };
+		2341FE8D223DE371D71E1704 /* Pods-placeAutocompleteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-placeAutocompleteTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-placeAutocompleteTests/Pods-placeAutocompleteTests.release.xcconfig"; sourceTree = "<group>"; };
+		31C2462EAAFEA1514D117B5A /* Pods_placeAutocomplete.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_placeAutocomplete.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8263CF3772F32A8B207E376B /* Pods-placeAutocompleteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-placeAutocompleteUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-placeAutocompleteUITests/Pods-placeAutocompleteUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AC630115E98E85944004BDA6 /* Pods-placeAutocomplete.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-placeAutocomplete.release.xcconfig"; path = "Pods/Target Support Files/Pods-placeAutocomplete/Pods-placeAutocomplete.release.xcconfig"; sourceTree = "<group>"; };
+		AE9E46136FE98EAE2ABF337B /* Pods_placeAutocompleteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_placeAutocompleteUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFCB28053C7C072D7F07458 /* Pods-placeAutocompleteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-placeAutocompleteTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-placeAutocompleteTests/Pods-placeAutocompleteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D24B7D90CA39DBC32B0E7891 /* Pods-placeAutocomplete.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-placeAutocomplete.debug.xcconfig"; path = "Pods/Target Support Files/Pods-placeAutocomplete/Pods-placeAutocomplete.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CBAA2A921917C91006A2587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AAC732C0E1103132CF16BF8 /* Pods_placeAutocomplete.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CBAA2BD21917C94006A2587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69CF42E30BB4CC327799B18E /* Pods_placeAutocompleteTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CBAA2C821917C94006A2587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E57102065D11577EA48C90F9 /* Pods_placeAutocompleteUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CBAA2A321917C91006A2587 = {
+			isa = PBXGroup;
+			children = (
+				1CBAA2AE21917C91006A2587 /* placeAutocomplete */,
+				1CBAA2C321917C94006A2587 /* placeAutocompleteTests */,
+				1CBAA2CE21917C94006A2587 /* placeAutocompleteUITests */,
+				1CBAA2AD21917C91006A2587 /* Products */,
+				F81068E0DE2130975678D71F /* Pods */,
+				366F330062389CCC98AE021F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1CBAA2AD21917C91006A2587 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CBAA2AC21917C91006A2587 /* placeAutocomplete.app */,
+				1CBAA2C021917C94006A2587 /* placeAutocompleteTests.xctest */,
+				1CBAA2CB21917C94006A2587 /* placeAutocompleteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CBAA2AE21917C91006A2587 /* placeAutocomplete */ = {
+			isa = PBXGroup;
+			children = (
+				1CBAA2AF21917C91006A2587 /* AppDelegate.swift */,
+				1CBAA2B121917C91006A2587 /* ViewController.swift */,
+				1CBAA2B321917C92006A2587 /* Main.storyboard */,
+				1C6E5A172191979E00E276B2 /* autocompleteSearchViewController.swift */,
+				1CBAA2DD219180FF006A2587 /* GoogleMapViewController.swift */,
+				1CBAA2B621917C94006A2587 /* Assets.xcassets */,
+				1CBAA2B821917C94006A2587 /* LaunchScreen.storyboard */,
+				1CBAA2BB21917C94006A2587 /* Info.plist */,
+			);
+			path = placeAutocomplete;
+			sourceTree = "<group>";
+		};
+		1CBAA2C321917C94006A2587 /* placeAutocompleteTests */ = {
+			isa = PBXGroup;
+			children = (
+				1CBAA2C421917C94006A2587 /* placeAutocompleteTests.swift */,
+				1CBAA2C621917C94006A2587 /* Info.plist */,
+			);
+			path = placeAutocompleteTests;
+			sourceTree = "<group>";
+		};
+		1CBAA2CE21917C94006A2587 /* placeAutocompleteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1CBAA2CF21917C94006A2587 /* placeAutocompleteUITests.swift */,
+				1CBAA2D121917C95006A2587 /* Info.plist */,
+			);
+			path = placeAutocompleteUITests;
+			sourceTree = "<group>";
+		};
+		366F330062389CCC98AE021F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31C2462EAAFEA1514D117B5A /* Pods_placeAutocomplete.framework */,
+				15FB4C0425374FE09D884E7A /* Pods_placeAutocompleteTests.framework */,
+				AE9E46136FE98EAE2ABF337B /* Pods_placeAutocompleteUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F81068E0DE2130975678D71F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D24B7D90CA39DBC32B0E7891 /* Pods-placeAutocomplete.debug.xcconfig */,
+				AC630115E98E85944004BDA6 /* Pods-placeAutocomplete.release.xcconfig */,
+				CAFCB28053C7C072D7F07458 /* Pods-placeAutocompleteTests.debug.xcconfig */,
+				2341FE8D223DE371D71E1704 /* Pods-placeAutocompleteTests.release.xcconfig */,
+				8263CF3772F32A8B207E376B /* Pods-placeAutocompleteUITests.debug.xcconfig */,
+				0F3CF0CDB699FE7155884844 /* Pods-placeAutocompleteUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CBAA2AB21917C91006A2587 /* placeAutocomplete */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CBAA2D421917C95006A2587 /* Build configuration list for PBXNativeTarget "placeAutocomplete" */;
+			buildPhases = (
+				984A585EDD7E0B4E0ACB44B1 /* [CP] Check Pods Manifest.lock */,
+				1CBAA2A821917C91006A2587 /* Sources */,
+				1CBAA2A921917C91006A2587 /* Frameworks */,
+				1CBAA2AA21917C91006A2587 /* Resources */,
+				0DB524FC9931F9B73A124FFC /* [CP] Copy Pods Resources */,
+				18FB0349E6D10A7255DF7B38 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = placeAutocomplete;
+			productName = placeAutocomplete;
+			productReference = 1CBAA2AC21917C91006A2587 /* placeAutocomplete.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CBAA2BF21917C94006A2587 /* placeAutocompleteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CBAA2D721917C95006A2587 /* Build configuration list for PBXNativeTarget "placeAutocompleteTests" */;
+			buildPhases = (
+				298AC3AB7BB44D4B98CB841F /* [CP] Check Pods Manifest.lock */,
+				1CBAA2BC21917C94006A2587 /* Sources */,
+				1CBAA2BD21917C94006A2587 /* Frameworks */,
+				1CBAA2BE21917C94006A2587 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CBAA2C221917C94006A2587 /* PBXTargetDependency */,
+			);
+			name = placeAutocompleteTests;
+			productName = placeAutocompleteTests;
+			productReference = 1CBAA2C021917C94006A2587 /* placeAutocompleteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1CBAA2CA21917C94006A2587 /* placeAutocompleteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CBAA2DA21917C95006A2587 /* Build configuration list for PBXNativeTarget "placeAutocompleteUITests" */;
+			buildPhases = (
+				4433D8C6A197E3A6C475CDB4 /* [CP] Check Pods Manifest.lock */,
+				1CBAA2C721917C94006A2587 /* Sources */,
+				1CBAA2C821917C94006A2587 /* Frameworks */,
+				1CBAA2C921917C94006A2587 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CBAA2CD21917C94006A2587 /* PBXTargetDependency */,
+			);
+			name = placeAutocompleteUITests;
+			productName = placeAutocompleteUITests;
+			productReference = 1CBAA2CB21917C94006A2587 /* placeAutocompleteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CBAA2A421917C91006A2587 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Indresh Arora";
+				TargetAttributes = {
+					1CBAA2AB21917C91006A2587 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					1CBAA2BF21917C94006A2587 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 1CBAA2AB21917C91006A2587;
+					};
+					1CBAA2CA21917C94006A2587 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 1CBAA2AB21917C91006A2587;
+					};
+				};
+			};
+			buildConfigurationList = 1CBAA2A721917C91006A2587 /* Build configuration list for PBXProject "placeAutocomplete" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CBAA2A321917C91006A2587;
+			productRefGroup = 1CBAA2AD21917C91006A2587 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CBAA2AB21917C91006A2587 /* placeAutocomplete */,
+				1CBAA2BF21917C94006A2587 /* placeAutocompleteTests */,
+				1CBAA2CA21917C94006A2587 /* placeAutocompleteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CBAA2AA21917C91006A2587 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CBAA2BA21917C94006A2587 /* LaunchScreen.storyboard in Resources */,
+				1CBAA2B721917C94006A2587 /* Assets.xcassets in Resources */,
+				1CBAA2B521917C92006A2587 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CBAA2BE21917C94006A2587 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CBAA2C921917C94006A2587 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DB524FC9931F9B73A124FFC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-placeAutocomplete/Pods-placeAutocomplete-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-placeAutocomplete/Pods-placeAutocomplete-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18FB0349E6D10A7255DF7B38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-placeAutocomplete/Pods-placeAutocomplete-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-placeAutocomplete/Pods-placeAutocomplete-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		298AC3AB7BB44D4B98CB841F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-placeAutocompleteTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4433D8C6A197E3A6C475CDB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-placeAutocompleteUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		984A585EDD7E0B4E0ACB44B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-placeAutocomplete-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CBAA2A821917C91006A2587 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C6E5A182191979E00E276B2 /* autocompleteSearchViewController.swift in Sources */,
+				1CBAA2B221917C91006A2587 /* ViewController.swift in Sources */,
+				1CBAA2B021917C91006A2587 /* AppDelegate.swift in Sources */,
+				1CBAA2DE219180FF006A2587 /* GoogleMapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CBAA2BC21917C94006A2587 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CBAA2C521917C94006A2587 /* placeAutocompleteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CBAA2C721917C94006A2587 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CBAA2D021917C94006A2587 /* placeAutocompleteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CBAA2C221917C94006A2587 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CBAA2AB21917C91006A2587 /* placeAutocomplete */;
+			targetProxy = 1CBAA2C121917C94006A2587 /* PBXContainerItemProxy */;
+		};
+		1CBAA2CD21917C94006A2587 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CBAA2AB21917C91006A2587 /* placeAutocomplete */;
+			targetProxy = 1CBAA2CC21917C94006A2587 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1CBAA2B321917C92006A2587 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CBAA2B421917C92006A2587 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1CBAA2B821917C94006A2587 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CBAA2B921917C94006A2587 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CBAA2D221917C95006A2587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1CBAA2D321917C95006A2587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CBAA2D521917C95006A2587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D24B7D90CA39DBC32B0E7891 /* Pods-placeAutocomplete.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22MQY5GLD5;
+				INFOPLIST_FILE = placeAutocomplete/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.placeAutocomplete.ia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1CBAA2D621917C95006A2587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC630115E98E85944004BDA6 /* Pods-placeAutocomplete.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22MQY5GLD5;
+				INFOPLIST_FILE = placeAutocomplete/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.placeAutocomplete.ia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1CBAA2D821917C95006A2587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAFCB28053C7C072D7F07458 /* Pods-placeAutocompleteTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22MQY5GLD5;
+				INFOPLIST_FILE = placeAutocompleteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.placeAutocompleteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/placeAutocomplete.app/placeAutocomplete";
+			};
+			name = Debug;
+		};
+		1CBAA2D921917C95006A2587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2341FE8D223DE371D71E1704 /* Pods-placeAutocompleteTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22MQY5GLD5;
+				INFOPLIST_FILE = placeAutocompleteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.placeAutocompleteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/placeAutocomplete.app/placeAutocomplete";
+			};
+			name = Release;
+		};
+		1CBAA2DB21917C95006A2587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8263CF3772F32A8B207E376B /* Pods-placeAutocompleteUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22MQY5GLD5;
+				INFOPLIST_FILE = placeAutocompleteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.placeAutocompleteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = placeAutocomplete;
+			};
+			name = Debug;
+		};
+		1CBAA2DC21917C95006A2587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F3CF0CDB699FE7155884844 /* Pods-placeAutocompleteUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22MQY5GLD5;
+				INFOPLIST_FILE = placeAutocompleteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.placeAutocompleteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = placeAutocomplete;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CBAA2A721917C91006A2587 /* Build configuration list for PBXProject "placeAutocomplete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CBAA2D221917C95006A2587 /* Debug */,
+				1CBAA2D321917C95006A2587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CBAA2D421917C95006A2587 /* Build configuration list for PBXNativeTarget "placeAutocomplete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CBAA2D521917C95006A2587 /* Debug */,
+				1CBAA2D621917C95006A2587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CBAA2D721917C95006A2587 /* Build configuration list for PBXNativeTarget "placeAutocompleteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CBAA2D821917C95006A2587 /* Debug */,
+				1CBAA2D921917C95006A2587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CBAA2DA21917C95006A2587 /* Build configuration list for PBXNativeTarget "placeAutocompleteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CBAA2DB21917C95006A2587 /* Debug */,
+				1CBAA2DC21917C95006A2587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CBAA2A421917C91006A2587 /* Project object */;
+}
